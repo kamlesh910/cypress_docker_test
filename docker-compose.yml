@@ -1,0 +1,10 @@
+version: '2'
+services:
+  cypress:
+      build:
+        context: .
+        dockerfile: dockerfile
+      command: npm run test
+      ipc: host
+      volumes:
+         - ./cypress:/usr/src/app/cypress
