@@ -2,3 +2,5 @@ videos/*
 screenshots/*
 results/*
 .Trash-0/*
+cypress-visual-screenshots/comparison/*
+cypress-visual-screenshots/diff/*
